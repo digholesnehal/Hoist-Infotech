@@ -25,15 +25,14 @@ body {
 }
 
 .header_btn {
-    padding: 0 15px 0 15px;
-    color: #50250C;
-    font-size: 15px;
-    opacity: 0.8;
-    font-weight: 600;
+    padding: 0 15px 0 15px !important;
+    color: #50250C !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
 }
 
 .active_link {
-  color: #60A725;
+  color: #60A725 !important;
 }
 
 #burger-button {
