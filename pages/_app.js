@@ -8,7 +8,7 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 import { useState } from "react";
 import MenuIcon from '@mui/icons-material/Menu';
 import EmailIcon from '@mui/icons-material/Email';
-
+import Head from 'next/head';
 
 function MyApp({ Component, pageProps }) {
     const theme = useTheme();
@@ -32,7 +32,10 @@ function MyApp({ Component, pageProps }) {
         setAnchorEl(null);
     };
 
-    return <div>
+    return <>
+        <Head>
+            <link rel="shortcut icon" href="/assets/favicon.ico" />
+        </Head>
         <div className='header_div'>
             <Link href="/">
                 <img
@@ -125,7 +128,7 @@ function MyApp({ Component, pageProps }) {
                 </span>
             </div>
         </footer>
-    </div>
+    </>
 }
 
 export default MyApp
