@@ -41,7 +41,7 @@ body {
 
 #burger-button:hover,
 .header_btn:hover {
-    color: #60A725;
+    color: #60A725 !important;
 }
 
 .component_div {
