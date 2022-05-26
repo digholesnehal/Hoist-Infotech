@@ -34,6 +34,7 @@ function MyApp({ Component, pageProps }) {
 
     return <>
         <Head>
+            <title>Hoist Infotech</title>
             <link rel="shortcut icon" href="/assets/favicon.ico" />
         </Head>
         <div className='header_div'>
