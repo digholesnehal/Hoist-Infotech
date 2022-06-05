@@ -8,6 +8,7 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 import { useState } from "react";
 import MenuIcon from '@mui/icons-material/Menu';
 import EmailIcon from '@mui/icons-material/Email';
+import PhoneIcon from '@mui/icons-material/Phone';
 import Head from 'next/head';
 
 function MyApp({ Component, pageProps }) {
@@ -108,6 +109,10 @@ function MyApp({ Component, pageProps }) {
                     <br />
                     <span className='footer_text'>
                         <EmailIcon className='footer_icon' fontSize='12' /> sales@hoistinfotech.com
+                    </span>
+                    <br />
+                    <span className='footer_text'>
+                        <PhoneIcon className='footer_icon' fontSize='12' /> 9970180154 
                     </span>
                 </Grid>
                 <div className='developed_by_div'>
