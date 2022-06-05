@@ -124,7 +124,7 @@ export default function HomePage() {
         </Grid>
         <Grid item xs={12} sm={6} className={styles.service_block}>
           <div className={styles.service_img_div}>
-            <img src='/assets/mobileApp.jpg' width={'70%'} />
+            <img src='/assets/mobileApp.png' width={'65%'} />
           </div>
           <span className={styles.service_text}>Android, IOS & Hybrid Application Development</span>
         </Grid>
@@ -138,7 +138,7 @@ export default function HomePage() {
           <div className={styles.service_img_div}>
             <img src='/assets/embedded.png' width={'30%'} />
           </div>
-          <span className={styles.embedded_service_text}>Embedded Designs</span>
+          <span className={styles.embedded_service_text}>Embedded Design & Development</span>
         </Grid>
       </Grid>
 
