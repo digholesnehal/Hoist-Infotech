@@ -134,6 +134,12 @@ export default function HomePage() {
           </div>
           <span className={styles.service_text}>Quality Assuarance & Testing</span>
         </Grid>
+        <Grid item xs={12} className={styles.service_block}>
+          <div className={styles.service_img_div}>
+            <img src='/assets/embedded.png' width={'30%'} />
+          </div>
+          <span className={styles.service_text}>Embedded Designs</span>
+        </Grid>
       </Grid>
 
     </div>
