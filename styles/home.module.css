@@ -158,6 +158,13 @@
   text-align: center;
 }
 
+.embedded_service_text {
+  font-size: 2vw;
+  font-weight: 600;
+  color: #454036;
+  min-height: 30%;
+}
+
 .service_text {
   font-size: 2vw;
   font-weight: 600;
