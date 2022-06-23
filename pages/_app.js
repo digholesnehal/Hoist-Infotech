@@ -35,8 +35,11 @@ function MyApp({ Component, pageProps }) {
 
     return <>
         <Head>
-            <title>Hoist Infotech</title>
+            <title>Hoist Infotech Pvt. Ltd.</title>
             <link rel="shortcut icon" href="/assets/favicon.ico" />
+            <meta name="description" content="Hoist Infotech is a IT service provider company based in Pune. Hoist Infotech works upon webbsite design, development, testing, maintenance, and more IT related activities." />
+            <meta name="keywords" content="hoistinfotech.com, www.hoistinfotech.com, hoistinfotech, #hioistinfotech, Hoist Infotech, Hoist technologies, Hoist infotech private limited, Hoist Infotech pvt. ltd, Hoist infotech pvt ltd, IT services, IT business, IT service provider, IT startup, IT startup in Pune, IT startup in Maharashtra, React, React-Native, Javascript, Angular, MERN stack, MEAN stack, Ionic, Java, Springboot, Node js, Next JS, IT jobs, IT contracts, IT US company, IT company in UK, IT company in Australia, IT ventures" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
         </Head>
         <div className='header_div'>
             <Link href="/">
@@ -112,7 +115,7 @@ function MyApp({ Component, pageProps }) {
                     </span>
                     <br />
                     <span className='footer_text'>
-                        <PhoneIcon className='footer_icon' fontSize='12' /> 9970180154 
+                        <PhoneIcon className='footer_icon' fontSize='12' /> 9970180154
                     </span>
                 </Grid>
                 <div className='developed_by_div'>
