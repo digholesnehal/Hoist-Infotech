@@ -111,11 +111,11 @@ function MyApp({ Component, pageProps }) {
                     </span>
                     <br />
                     <span className='footer_text'>
-                        <EmailIcon className='footer_icon' fontSize='12' /> sales@hoistinfotech.com
+                        <EmailIcon className='footer_icon' fontSize='12' /> digholesnehal@gmail.com
                     </span>
                     <br />
                     <span className='footer_text'>
-                        <PhoneIcon className='footer_icon' fontSize='12' /> 9970180154
+                        <PhoneIcon className='footer_icon' fontSize='12' /> 9930002810
                     </span>
                 </Grid>
                 <div className='developed_by_div'>
@@ -127,7 +127,7 @@ function MyApp({ Component, pageProps }) {
                             width={uptoSM ? '5%' : '25px'}
                             className='footer_logo'
                         />
-                        <span>Hoist Infotech</span>
+                        <span>Snehal Metkar</span>
                     </div>
                 </div>
             </Grid>
